@@ -7,7 +7,7 @@ const Gallery = (data) => {
     return (<article className="carta-modelo" key={mueble.id}>
       <div className="contenedor-productos">
       <img src={mueble.img} alt="" className="producto-imagen" />
-      <h3 className="producto-titulo">{mueble.name}</h3>
+      <h3 className="producto-titulo">{mueble.product_name}</h3>
       {/* <div className="producto-info-basico"> */}
         <button className="boton-producto-agregar">
           <p className="producto-precio"><i className="fa-solid fa-cart-shopping"></i>{mueble.price}</p>
