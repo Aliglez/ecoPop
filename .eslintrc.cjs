@@ -18,4 +18,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  env: {
+    // Agrega Jest como un entorno de prueba
+    jest: true,
+  },
 }
